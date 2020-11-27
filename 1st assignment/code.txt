@@ -156,12 +156,12 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr><td colspan="2" align="center" ><h6>copyright</h6></td></tr>
                         </table></td>
                     </tr>
                 </table>
             </td>
         </tr>
+    <tr><td  width="100%"><h6 align="center">copyright</h6></td></tr>
     </table>
 </body>
 </html>
