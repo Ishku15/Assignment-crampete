@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form method="POST  ">
+        <table width="100%">
+            <tr>
+                <td width="20%"></td>
+                <td width="60%">
+                    <h1>Music School registration</h1>
+                    Register to Our Music School
+                    <hr>
+                </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td width="40%">Name: *</td>
+                            <td width="30%"><input type="text" name="Txfname" placeholder="First Name"></td>
+                            <td width="30%"><input type="text"name="TxLname" placeholder="Last Name"></td>
+                        </tr>
+                        <tr>
+                            <td><br>Date Of Birth: *</td>
+                            <td colspan="2"><br><input type="date"</td>
+                        </tr>
+                        <tr>
+                            <td><br>Choice Of Instrument: *</td>
+                            <td>
+                                <br>
+                                <select> 
+                                    <option>Drums</option>
+                                    <option>Keyboard</option>
+                                    <option>Violin</option>
+                                    <option>Trumpet</option>
+                                    <option>Guitar</option>
+                                    <option>Bass</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><br>Pick the Days for the Classes: *</td>
+                            <td>
+                                <br>
+                                <input type="checkbox"name="Days">Monday <br>
+                                <input type="checkbox"name="Days">Tuesday<br>
+                                <input type="checkbox"name="Days">Wednesday<br>
+                                <input type="checkbox"name="Days">Thursday<br>
+                                <input type="checkbox"name="Days">Friday<br>
+                                <input type="checkbox"name="Days">Saturday<br>
+                                <input type="checkbox"name="Days">Sunday
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><br>Start Date and time</td>
+                            <td>
+                                <br>
+                                <input type="date" name="SDAT">
+                            </td>
+                            <td>
+                                <br>
+                                at <input type="time" name="Time">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><br>Comment: *</td>
+                            <td colspan="2">
+                                <br>
+                                <textarea name="comment" cols="50" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center"><br><input type="image" src="submit.png" width="100"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
