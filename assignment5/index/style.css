@@ -10,6 +10,7 @@
     justify-content: space-between;
     background-color: rgba(0, 149, 255, 0.7);
 }
+
 .social{
     display: flex;
     align-items: center;
@@ -170,6 +171,7 @@
 .industry{
     width: 80%;
     margin: 20px auto;
+    overflow: hidden;
 }
 .info{
     display: grid;
@@ -179,6 +181,9 @@
     background-image: url(bg.jpg);
     background-size: cover;
     width: 100%;
+}
+.left{
+    max-width: 100%;
 }
 .link{
     padding: 15px 10px;
@@ -224,7 +229,7 @@ div a:hover{
 }
 .choice button{
     width: 600px;
-    height: 50px;
+    min-height: 10%;
     border: none;
     color: rgb(0,149,255);
     font-size: x-large;
