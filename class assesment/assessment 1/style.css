@@ -17,6 +17,7 @@ body{
     background-image: url('img1.jpg');
     background-position: center ;
     background-size: cover;
+    position:relative;
     
 }
 .back-img::before{
